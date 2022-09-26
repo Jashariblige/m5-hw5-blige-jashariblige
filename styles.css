@@ -1,10 +1,20 @@
 body{
-    max-width: 800px;
+    max-width: 500px;
     margin: 24px auto;
+}
+
+
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80);
 }
 
 img{
     float: left;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
 }
 
 header > nav{
@@ -13,7 +23,7 @@ header > nav{
 
 article{
     float: left;
-    max-width: 700px;
+    max-width: 400px;
 }
 
 main::after{
