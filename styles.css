@@ -1,9 +1,28 @@
+
+
 body{
-    max-width: 500px;
-    margin: 24px auto;
+    max-width: 1000px;
+    margin: auto;
 }
 
+html{
+    font-family: Arial, Helvetica, sans-serif
+}
 
+header {
+    display: inline-block;
+    width: 200%;
+    height: 150px;
+    background-color: white;
+    border-top-style: dashed;
+    border-bottom-style: dashed; 
+    border: 2% solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    border-bottom-style: dashed; 
+}
 
 body{
     background-image: url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80);
@@ -11,19 +30,19 @@ body{
 
 img{
     float: left;
+    margin: 8px;
 }
 
 main{
     background-color: rgb(255, 255, 255);
 }
-
 header > nav{
     float:right ;
 }
 
 article{
     float: left;
-    max-width: 400px;
+    max-width: 700px;
 }
 
 main::after{
@@ -32,3 +51,34 @@ main::after{
     display: block;
 }
 
+.sidebar {
+    height: 150px;
+    width: 200px;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0px;
+    float: right;
+    margin-top: 200px;
+    padding-top: 40px;
+    background-color: whitesmoke;
+    }
+    
+    .sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    }
+    
+    .body-text {
+    margin-right: 250px;
+    font-size: 18px;
+    }
+
+    footer {
+        text-align: center;
+        color: white;
+        background-color:grey;
+        display: inline-block;
+        width: 200%;
+        height: 25px;
+    }
